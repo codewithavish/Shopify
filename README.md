@@ -110,15 +110,6 @@ Start an Android emulator or connect an Android device, then click **Run** in An
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of your actual application to showcase its interface.
-
-<img width="1440" height="3120" alt="Screenshot_20261019_040153" src="https://github.com/user-attachments/assets/7d6cf358-4893-45d1-bf24-6aed22829d6e" />
-
-
----
-
 ## 📥 Download
 
 **Source Code:** [Shopify on GitHub](https://github.com/codewithavish/Shopify)
@@ -143,22 +134,24 @@ An installable APK can be published in the repository's **Releases** section whe
 
 Potential future enhancements include:
 
-- Wishlist functionality.
+- Edit Profile functionality.
 - Checkout and order management.
 - Automated unit and UI testing.
-- Continuous integration using GitHub Actions.
+- More UI Improvement
 
 ---
 
 ## 👨‍💻 Author
 
-**Avish**
+**Aviral**
 
 - **GitHub Profile:** [@codewithavish](https://github.com/codewithavish)
 - **Project Repository:** [Shopify](https://github.com/codewithavish/Shopify)
 
----
 
-## 📄 License
+## 📸 Screenshots
 
-No license has been specified yet. Add a `LICENSE` file if you want to define how others may use, modify, and distribute this project.
+Add screenshots of your actual application to showcase its interface.
+
+<img width="1040" height="2120" alt="Screenshot_20261019_040153" src="https://github.com/user-attachments/assets/7d6cf358-4893-45d1-bf24-6aed22829d6e" />
+
