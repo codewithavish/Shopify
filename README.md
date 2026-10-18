@@ -42,7 +42,7 @@ Shopify is an Android e-commerce application built with **Kotlin, Jetpack Compos
 The application follows **Clean Architecture** principles to separate presentation, business logic, and data operations.
 
 - **Presentation Layer:** Jetpack Compose screens, ViewModels, and UI state management.
-- **Domain Layer:** Business logic, use cases, and repository interfaces.
+- **Domain Layer:** Business logic, and repository interfaces.
 - **Data Layer:** API services, data models, repository implementations, and local database operations.
 - **Dependency Injection:** Hilt for managing dependencies.
 
