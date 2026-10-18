@@ -1,95 +1,171 @@
-🛍️ Shopify — Android E-Commerce App
+# 🛍️ Shopify — Android E-Commerce App
 
-A modern Android e-commerce application built with Kotlin, Jetpack Compose, and Clean Architecture. The app provides a smooth shopping experience with authentication, product browsing, category navigation, search, filtering, cart access, and profile management.
+Shopify is an Android e-commerce application built with **Kotlin, Jetpack Compose, and Clean Architecture**. It provides a shopping experience with user authentication, product browsing, category navigation, search, filtering, cart management, and profile management.
 
-GitHub Repository: https://github.com/codewithavish/Shopify
+**GitHub Repository:** [Shopify Android App](https://github.com/codewithavish/Shopify)
 
-✨ Features
 
-User Authentication: Register and log in.
+## ✨ Features
 
-Home Screen: Explore featured products, categories, and special offers.
+- **User Authentication:** User registration and login.
+- **Home Screen:** Explore products and categories.
+- **Bottom Navigation:** Navigate between Home, Categories, Cart, and Profile.
+- **Category List:** Browse available product categories.
+- **Product Listing:** Explore available products.
+- **Product Details:** View detailed product information.
+- **Search:** Search for products and categories.
+- **Sorting and Filtering:** Organize products using available options.
+- **Shopping Cart:** Manage cart items with local storage.
+- **Profile:** View user profile information.
+- **Edit Profile:** Update profile details.
 
-Bottom Navigation: Navigate between Home, Categories, Cart, and Profile.
+---
 
-Category List: Browse available product categories.
+## 🛠️ Tech Stack
 
-Product Listing: Explore available products.
+- **Kotlin** — Programming language.
+- **Jetpack Compose** — Modern declarative UI toolkit.
+- **Clean Architecture** — Separation of application layers.
+- **Hilt** — Dependency injection.
+- **Retrofit** — REST API communication.
+- **OkHttp** — HTTP client.
+- **Kotlin Coroutines** — Asynchronous programming.
+- **Flow / StateFlow** — Reactive data streams and UI state management.
+- **Room Database** — Local persistence for shopping cart items.
+- **Coil 3** — Image loading.
+- **Navigation Compose** — Navigation between screens.
 
-Product Details: View detailed product information.
+---
 
-Search: Search for Category and Products.
+## 🏗️ Architecture
 
-Sorting and Filtering: Organize products using available options.
+The application follows **Clean Architecture** principles to separate presentation, business logic, and data operations.
 
-Shopping Cart: Access the cart from the bottom navigation.
+- **Presentation Layer:** Jetpack Compose screens, ViewModels, and UI state management.
+- **Domain Layer:** Business logic, use cases, and repository interfaces.
+- **Data Layer:** API services, data models, repository implementations, and local database operations.
+- **Dependency Injection:** Hilt for managing dependencies.
 
-Profile: View user profile information.
+This structure helps keep the code organized, maintainable, and easier to test.
 
-Edit Profile: Update profile details.
+---
 
-🛠️ Tech Stack
+## 🌐 API Integration
 
-Technology
+The application uses the EscuelaJS REST API for remote product and category data.
 
-Purpose
+- **Base URL:** `https://api.escuelajs.co/api/v1/`
 
-Kotlin
+The API provides remote data, while Room Database is used for local shopping cart storage.
 
-Programming language
+---
 
-Jetpack Compose
+## 💾 Data Management
 
-Modern declarative UI
+### Remote Data
 
-Clean Architecture
+Retrofit and OkHttp are used to communicate with the REST API.
 
-Separation of application layers
+### Local Cart Storage
 
-Hilt
+Room Database stores shopping cart items locally, allowing them to remain available after the app is closed and reopened on the same device.
 
-Dependency injection
+### Reactive UI Updates
 
-Retrofit
+Kotlin Flow and StateFlow help observe data changes and update the UI.
 
-REST API communication
+### Authentication
 
-OkHttp
+Registration and login use the available API functionality. Session persistence depends on the app's authentication and local session-management implementation.
 
-HTTP client
+---
 
-Kotlin Coroutines
+## 🚀 Getting Started
 
-Asynchronous programming
+### Prerequisites
 
-Flow / StateFlow
+- Android Studio
+- Compatible JDK and Android SDK
+- Internet connection
 
-Reactive data and UI state
+### Installation
 
-Coil 3
+**1. Clone the repository**
 
-Image loading
+```bash
+git clone https://github.com/codewithavish/Shopify.git
+```
 
-Navigation Compose
+**2. Open the project**
 
-Screen navigation
+Open the cloned project in Android Studio.
 
-🏗️ Architecture
+**3. Sync Gradle**
 
-The project follows Clean Architecture principles to separate presentation, business logic, and data operations.
+Allow Android Studio to download dependencies and complete the Gradle sync.
 
-Presentation Layer: Compose screens, ViewModels, and UI state management.
+**4. Run the application**
 
-Domain Layer: Business logic, use cases, and repository interfaces.
+Start an Android emulator or connect an Android device, then click **Run** in Android Studio.
 
-Data Layer: API services, data models, and repository implementations.
+---
 
-Dependency Injection: Hilt modules for managing dependencies.
+## 📸 Screenshots
 
-This architecture helps keep the code organized, maintainable, and easier to test.
+Add screenshots of your actual application to showcase its interface.
 
-🌐 API Integration
+- Home Screen
+- Login and Registration
+- Category List
+- Product Listing
+- Product Details
+- Search and Filtering
+- Shopping Cart
+- Profile
+- Edit Profile
 
-The application uses the EscuelaJS REST API for product and category data.
+---
 
-Base URL: https://api.escuelajs.co/api/v1/
+## 📥 Download
+
+**Source Code:** [Shopify on GitHub](https://github.com/codewithavish/Shopify)
+
+An installable APK can be published in the repository's **Releases** section when available.
+
+---
+
+## 🎯 Key Highlights
+
+- Modern Android UI built with Jetpack Compose.
+- Clean Architecture for separation of concerns.
+- REST API integration using Retrofit and OkHttp.
+- Local cart persistence using Room Database.
+- Reactive UI state management using Flow and StateFlow.
+- Dependency injection using Hilt.
+- Multi-screen navigation using Navigation Compose.
+
+---
+
+## 🔮 Future Improvements
+
+Potential future enhancements include:
+
+- Wishlist functionality.
+- Checkout and order management.
+- Automated unit and UI testing.
+- Continuous integration using GitHub Actions.
+
+---
+
+## 👨‍💻 Author
+
+**Avish**
+
+- **GitHub Profile:** [@codewithavish](https://github.com/codewithavish)
+- **Project Repository:** [Shopify](https://github.com/codewithavish/Shopify)
+
+---
+
+## 📄 License
+
+No license has been specified yet. Add a `LICENSE` file if you want to define how others may use, modify, and distribute this project.
