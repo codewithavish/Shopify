@@ -18,7 +18,7 @@ Product Listing: Explore available products.
 
 Product Details: View detailed product information.
 
-Search: Search for products.
+Search: Search for Category and Products.
 
 Sorting and Filtering: Organize products using available options.
 
