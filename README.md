@@ -153,5 +153,22 @@ Potential future enhancements include:
 
 Add screenshots of your actual application to showcase its interface.
 
-<img width="1040" height="2120" alt="Screenshot_20261019_040153" src="https://github.com/user-attachments/assets/7d6cf358-4893-45d1-bf24-6aed22829d6e" />
+<img width="240" height="520" alt="Screenshot_20261019_035811" src="https://github.com/user-attachments/assets/a381174d-30dd-4bc0-ac0b-5d6885c12305" />
+
+<img width="240" height="520" alt="Screenshot_20261019_035716" src="https://github.com/user-attachments/assets/6041f48b-0783-4926-95fe-aeb49ac13250" />
+
+
+<img width="240" height="520" alt="Screenshot_20261019_040122" src="https://github.com/user-attachments/assets/eb1f68da-80a1-4960-9cfb-30a7e2893bbe" />
+
+<img width="240" height="520" alt="Screenshot_20261019_040153" src="https://github.com/user-attachments/assets/7d6cf358-4893-45d1-bf24-6aed22829d6e" />
+
+<img width="240" height="520" alt="Screenshot_20261019_040224" src="https://github.com/user-attachments/assets/231b7476-1eaf-4886-8227-a51ea6f62786" />
+
+<img width="240" height="520"  alt="Screenshot_20261019_040254" src="https://github.com/user-attachments/assets/253fefcb-824b-40a2-a8d0-6dbf1eb24a05" />
+
+<img width="240" height="520" alt="Screenshot_20261019_040403" src="https://github.com/user-attachments/assets/c5831a3f-2e08-4500-9648-05566db0eacc" />
+
+<img width="240" height="520" alt="Screenshot_20261019_040420" src="https://github.com/user-attachments/assets/0ca77baf-a616-450f-a095-5eaf6ff2385d" />
+
+
 
