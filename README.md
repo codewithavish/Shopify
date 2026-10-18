@@ -114,15 +114,8 @@ Start an Android emulator or connect an Android device, then click **Run** in An
 
 Add screenshots of your actual application to showcase its interface.
 
-- Home Screen
-- Login and Registration
-- Category List
-- Product Listing
-- Product Details
-- Search and Filtering
-- Shopping Cart
-- Profile
-- Edit Profile
+<img width="1440" height="3120" alt="Screenshot_20261019_040153" src="https://github.com/user-attachments/assets/7d6cf358-4893-45d1-bf24-6aed22829d6e" />
+
 
 ---
 
